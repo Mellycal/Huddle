@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container1 {
+            background-image: url('bg-hero-desktop.svg');
+        }
+        
+        .container1 img {
+            height: 15px;
+        }
+        
+        .container1 button {
+            float: right;
+            border-radius: 40px;
+            border: none;
+        }
+        
+        .container1 .fans {
+            display: flex;
+            align-items: left;
+            margin-top: 60px;
+            margin-left: 30px;
+        }
+        
+        .container1 .fans h3 {
+            position: absolute;
+        }
+        
+        .container1 .fans p {
+            text-align: left;
+            padding-top: 40px;
+        }
+        
+        .container1 .fans img {
+            width: 300px;
+            height: 200px;
+            margin-top: 20px;
+            margin-right: 20px;
+        }
+        
+        .container1 .fans button {
+            background-color: rgb(235, 15, 169);
+            color: white;
+            position: absolute;
+            height: 30px;
+            width: 200px;
+            margin-top: auto;
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 15%;
+            -ms-transform: translate(-50%, -30%);
+            transform: translate(-30%, -80%);
+        }
+        
+        .container {
+            display: flex;
+            align-items: left;
+            margin-top: 60px;
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+        
+        .container h3 {
+            position: absolute;
+        }
+        
+        .container p {
+            text-align: left;
+            padding-top: 40px;
+        }
+        
+        .container img {
+            width: 300px;
+            height: 200px;
+            margin-top: 20px;
+            margin-right: 20px;
+        }
+        
+        .container_middle {
+            display: flex;
+            align-items: right;
+            margin-top: 60px;
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+        
+        .container_middle h3 {
+            position: absolute;
+            background-color: blue;
+        }
+        
+        .container_middle p {
+            text-align: left;
+            padding-top: 50px;
+        }
+        
+        .container_middle img {
+            float: left;
+            width: 300px;
+            height: 200px;
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+        
+        .container_footer {
+            display: flexbox;
+            align-items: center;
+            width: 50%;
+            height: 100px;
+            margin: auto;
+            margin-top: 80px;
+        }
+        
+        .container_footer h3 {
+            text-align: center;
+        }
+        
+        .container_footer button {
+            background-color: rgb(235, 15, 169);
+            color: white;
+            font-size: 10pt;
+            border: none;
+            border-radius: 40px;
+            height: 30px;
+            width: 200px;
+            margin: 0;
+            position: absolute;
+            left: 50%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -20%);
+            align-content: center;
+        }
